@@ -1,0 +1,41 @@
+.main {
+  padding-top: 1.5rem;
+  background-color: hsl(207, 26%, 17%);
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 1rem;
+}
+
+.sentinela {
+  height: 10px;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 840px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 680px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 470px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .form {
+    flex-direction: column;
+  }
+}

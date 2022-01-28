@@ -1,0 +1,33 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(209, 23%, 22%);
+  margin-top: 25px;
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+}
+
+.card div {
+  padding: 1rem;
+}
+
+.card h4 {
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.card p {
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+}
+
+.card p span {
+  font-weight: 300;
+  font-size: 0.8rem;
+  color: hsl(0, 0%, 52%);
+}

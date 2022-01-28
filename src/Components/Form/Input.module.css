@@ -1,0 +1,37 @@
+.input {
+  display: flex;
+  align-items: center;
+}
+
+.input svg {
+  background-color: hsl(209, 23%, 22%);
+  color: #fff;
+  padding-left: 1rem;
+  width: 2rem;
+  height: 2.55rem;
+}
+
+.input input {
+  padding: 0.8rem;
+  border: none;
+  background-color: hsl(209, 23%, 22%);
+  color: #fff;
+}
+
+.input input::placeholder {
+  color: #fff;
+}
+
+.input input:focus {
+  outline: none;
+}
+
+@media (max-width: 470px) {
+  .input {
+    margin-bottom: 10px;
+  }
+
+  .input input {
+    width: 100%;
+  }
+}

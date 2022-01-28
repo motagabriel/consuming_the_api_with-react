@@ -1,0 +1,17 @@
+.select {
+  height: 2.55rem;
+  padding: 0.2rem 0.5rem;
+  border: none;
+  background-color: hsl(209, 23%, 22%);
+  color: #fff;
+}
+
+.select:focus {
+  outline: none;
+}
+
+@media (max-width: 470px) {
+  .select option {
+    text-align: center;
+  }
+}
